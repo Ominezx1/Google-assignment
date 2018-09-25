@@ -1,0 +1,81 @@
+*{box-sizing:border-box;}
+header{
+    margin-bottom:50px;
+}
+nav ul{
+display:flex;
+flex-wrap: wrap;
+justify-content:space-between;
+width:250px;
+list-style-type:none;
+margin-left:auto;
+}
+a{text-decoration:none;}
+main{
+    width:600px;
+    margin:0px auto;
+    text-align:center;
+}
+.G_logo{
+    width:80%;
+    margin-bottom:20px;
+}
+.search{
+    border:1px solid #ccc;
+    margin-bottom:40px;
+}
+.search input{
+    width:93%;
+    padding:15px 20px;
+    border:0px;
+}
+.search img{vertical-align:middle;width:35px;}
+.cta{margin-bottom:40px;}
+.cta input{
+    font-weight:bold;
+    padding:10px 20px;
+    border:0px;
+    margin:0px 2px;
+    color:#888;
+    border-right:2px solid #888;
+    border-bottom:2px solid #888;
+    outline:none;
+}
+.cta input:hover{border:1px solid #888;color:#000;}
+.links{
+    display:flex;
+    width:80%;
+    margin:auto;
+}
+.links span{
+    display:inline-block;
+}
+.links ul{
+    list-style-type:none;
+    justify-content:space-between;
+    margin:0px;
+}
+.links ul li{
+    display:inline-block;
+    margin:0px 15px;
+}
+footer{
+    position:absolute;
+    bottom:5px;
+    width:98%;
+    margin-top:50px;
+    background:#ddd;
+    display:flex;
+    justify-content:space-around;
+}
+footer .left-links{margin-right:auto;}
+footer .right-links{margin-left:auto;}
+footer .left-links ul,
+.right-links ul{
+    display:flex;
+    list-style-type:none;
+}
+footer .left-links ul li,
+.right-links ul li{
+    margin:0px 20px;
+}
